@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="topics.css">
+    <title>QuizFiesta - Select Topics</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to QuizFiesta!</h1>
+        <p>Select a topic to start your quiz:</p>
+        
+        <div class="topics">
+             <a href="http://127.0.0.1:5501/index1.html" class="topic" onclick="startQuiz('science')">GATE</a>
+            <div class="topic" onclick="startQuiz('history')">CAT</div>
+            <div class="topic" onclick="startQuiz('programming')">UPSE</div>
+            <div class="topic" onclick="startQuiz('programming')">JEE</div>
+            <div class="topic" onclick="startQuiz('programming')">NEET</div>
+            <div class="topic" onclick="startQuiz('programming')">CLAT</div>
+            <div class="topic" onclick="startQuiz('programming')">SSC</div>
+            <div class="topic" onclick="startQuiz('programming')">AIIMS</div>
+            <div class="topic" onclick="startQuiz('programming')">NET</div>
+            <div class="topic" onclick="startQuiz('programming')">GRE</div>
+            <div class="topic" onclick="startQuiz('programming')">TOEFYL</div>
+            <div class="topic" onclick="startQuiz('programming')">CA</div>
+            <div class="topic" onclick="startQuiz('programming')">NDA</div>
+
+
+            <!-- Add more topics as needed -->
+        </div>
+    </div>
+
+    <script >
+        function startQuiz(topic) {
+            // Redirect to the quiz page for the selected topic
+            window.location.href = `quiz.html?topic=${topic}`;
+        }
+        
+    </script>
+</body>
+</html>

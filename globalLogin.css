@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-itim: Itim;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: rgba(0, 0, 0, 0.25);
+  --color-lightpink: #ffa3be;
+  --color-dimgray: #673535;
+  --color-slateblue: #474bca;
+  --color-black: #000;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+}

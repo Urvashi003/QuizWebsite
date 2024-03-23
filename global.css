@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-circular-std: "Circular Std";
+  --font-averta-bold: Averta-Bold;
+  --font-averta-semibold: Averta-Semibold;
+  --font-avertastd-bold: AvertaStd-Bold;
+  --font-gotham-rounded: "Gotham Rounded";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-11xl: 30px;
+  --font-size-35xl: 54px;
+  --font-size-53xl: 72px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumspringgreen: #08fe90;
+  --color-gray-100: #828282;
+  --color-darkslategray-100: #333;
+  --color-springgreen: #01ff88;
+  --color-deepskyblue: #34aeff;
+
+  /* Border radiuses */
+  --br-80xl: 99px;
+}
